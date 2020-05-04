@@ -25,9 +25,8 @@ ansible-playbook playbook.yml -i inventory
 ``` 
 
 ### Homebrew未対応パッケージの追加インストール
-- [GVM](https://github.com/moovweb/gvm)
-- [NVM](https://github.com/nvm-sh/nvm)
 - [Zoom](https://zoom.us/)
+- [prezto](https://github.com/sorin-ionescu/prezto)
 - Xcode
 
 ### 再起動

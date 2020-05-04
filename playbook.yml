@@ -5,17 +5,34 @@
   become: no
   vars:
     brew_packages:
-      - byobu
-      - docker-compose
+      # git
       - git
       - git-lfs
+      - git-secrets
+      - tig
+      - gh
+      # infra
+      - ansible
+      - awscli
+      - packer
+      # lang
+      - nodenv
+      - goenv
+      - pyenv
+      - tfenv
+      # others
+      - byobu
+      - direnv
+      - docker-compose
+      - fzf
+      - jq
       - openssl
+      - peco
       - tree
+      - vim
       - wget
 
     brew_cask_apps:
-      # container
-      - docker
       # browser
       - firefox
       - chromium
@@ -25,10 +42,15 @@
       - pycharm
       - webstorm
       - android-studio
-      # diff
-      - meld
-      # chat
+      # work
       - slack
+      - sneek
+      # others
+      - docker
+      - iTerm2
+      - meld
+      - skitch
+      - 1Password
 
   tasks:
     - name: Update Homebrew
