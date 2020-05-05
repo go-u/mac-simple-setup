@@ -48,6 +48,7 @@
       # others
       - docker
       - iTerm2
+      - karabiner-elements
       - meld
       - skitch
       - 1Password
