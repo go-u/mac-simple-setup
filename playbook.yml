@@ -21,7 +21,6 @@
       - pyenv
       - tfenv
       # others
-      - byobu
       - direnv
       - docker-compose
       - fzf
