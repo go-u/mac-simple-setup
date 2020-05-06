@@ -51,6 +51,7 @@
       - meld
       - skitch
       - 1Password
+      - keepassxc
 
   tasks:
     - name: Update Homebrew
