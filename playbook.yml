@@ -46,6 +46,7 @@
       - sneek
       # others
       - docker
+      - dropbox
       - iTerm2
       - karabiner-elements
       - meld
