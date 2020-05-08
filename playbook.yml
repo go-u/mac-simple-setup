@@ -15,9 +15,7 @@
       - ansible
       - awscli
       - packer
-      # lang
-      - nodenv
-      - goenv
+      # lang management
       - pyenv
       - tfenv
       # others
@@ -30,6 +28,7 @@
       - tree
       - vim
       - wget
+      - yarn
 
     brew_cask_apps:
       # browser
